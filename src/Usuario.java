@@ -1,7 +1,7 @@
 public class Usuario {
-
+    private static Singleton instance; //null
+    
     private String residencia;
-
     private String email;
     private String vencimientoLicencia;
     private String contraseña;
